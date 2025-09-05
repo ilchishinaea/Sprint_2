@@ -14,6 +14,10 @@ public abstract class Food {
         return isVegetarian;
     }
 
+    public double getAmount(){
+        return amount;
+    }
+
     public abstract double getDiscount();
 
 }
